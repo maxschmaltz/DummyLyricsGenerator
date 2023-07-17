@@ -1,0 +1,7 @@
+{
+    "about": "In this lab, you'll create a simple web application with `streamlit` that will wrap over ChatGPT. The app will prompt the user and then generate lyrics from their preferences. The lyrics will then be able to be saved into a text file.\n&nbsp;We will implement both the backend and the frontend, the instructions are given below.",
+    "login": "Log in to your OpenAI organization. For that, use the created *API key* and the *organization id*.",
+    "backend": "Here, we'll learn how to use ChatGPT programmatically via its API. We'll compose user preferences into a request, pass it to ChatGPT and then precess its response.\n&nbsp;",
+    "frontend": "Implementing frontend will involve `streamlit`. We'll learn its basic concepts and assemble a simple interface with elements such as checkboxes, input fields, dropdown list etc.\n&nbsp;",
+    "params":  "* **Topic**: the topic of the lyrics\n* **Genre**: the genre of the lyrics\n* **Specify Decade**: whether or not you want your lyrics to imitate lyrics from a certain decade\n* **Decade**: a decade you want your lyrics to pretend to be from&nbsp;"
+}
