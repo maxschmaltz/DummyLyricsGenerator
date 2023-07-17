@@ -26,3 +26,21 @@ The app is implemented with `streamlit` and is therefore hosted on [Streamlit Cl
 
 ## Parameters
 
+The parameters are input in the respective widgets of the web app. More detailed explanations are given there.
+
+topic : `str`
+    topic of the song to generate lyrics for
+
+genre : `str`
+    genre of the song
+
+specify_decade : `bool`
+    if `True`, the lyrics will imitate lyrics of the specified decade
+
+decade : `int`, `1700` to `2300`
+    the decade to imitate lyrics of; applies only if `specify_decade` is `True`
+
+
+## Acknowledgements
+
+I'd like to thank Marie Hinrichs and Prof. Dr. Erhard Hinrichs (both: Seminar für Sprachwissenschaft, Eberhard Karls Universität Tübingen) for giving me an opportunity to share my knowledge and skills as a tutor at the Statistical Language Processing II course in the SoSe23. That was a great chance to both sharpen my competencies and offer them to the students. In process of creating and evaluating labs and assignments, I kept opening new things which definitely gave me new insight in the area and enriched my background.
