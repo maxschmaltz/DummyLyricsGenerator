@@ -1,4 +1,5 @@
-# DummyLyricsGenerator: A dummy web app for generating funny lyrics with ChatGPT.
+# DummyLyricsGenerator
+A dummy web app for generating funny lyrics with ChatGPT.
 
 [![Generic badge](https://img.shields.io/badge/streamlit-red.svg)](https://dummy-lyrics-generator.streamlit.app/)
 
@@ -28,17 +29,12 @@ The app is implemented with `streamlit` and is therefore hosted on [Streamlit Cl
 
 The parameters are input in the respective widgets of the web app. More detailed explanations are given there.
 
-topic : `str`
-    topic of the song to generate lyrics for
-
-genre : `str`
-    genre of the song
-
-specify_decade : `bool`
-    if `True`, the lyrics will imitate lyrics of the specified decade
-
-decade : `int`, `1700` to `2300`
-    the decade to imitate lyrics of; applies only if `specify_decade` is `True`
+| parameter | type | description |
+|-----------|-------|-------------|
+| topic     | `str` | topic of the song to generate lyrics for |
+| genre     | `bool` | genre of the song |
+| specify_decade     | `str` | if `True`, the lyrics will imitate lyrics of the specified decade |
+| decade     | `int`, `1700` to `2300` | the decade to imitate lyrics of; applies only if `specify_decade` is `True` |
 
 
 ## Acknowledgements
