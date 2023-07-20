@@ -31,11 +31,12 @@ def show() -> None:
 
     st.header('Generated Lyrics')
 
-    placeholder = st.empty()
-    placeholder.info('Generating...') # this will inform user in a disappearing placeholder
-    generate_lyrics()
-    placeholder.info('Generated!'); time.sleep(1.5)
-    placeholder.empty() # placeholder disappears
+    if state.lyrics is None:
+        placeholder = st.empty()
+        placeholder.info('Generating...') # this will inform user in a disappearing placeholder
+        generate_lyrics()
+        placeholder.info('Generated!'); time.sleep(1.5)
+        placeholder.empty() # placeholder disappears
 
     with st.expander('Lyrics', expanded=True):
         st.write(state.lyrics)
